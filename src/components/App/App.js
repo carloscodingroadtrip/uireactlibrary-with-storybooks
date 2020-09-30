@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
+import Card from '../Card';
 
-function App() {
-  return (
-    <>
-    <div className="container">
-      <h1>Hello From App</h1>
-    </div>
-    </>
-  );
-}
+const App = () => {
+	return (
+		<>
+			<div>
+				<h1>Using Storybook with React</h1>
+			</div>
+			<Card />
+		</>
+	);
+};
 
 export default App;
